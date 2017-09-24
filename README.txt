@@ -9,12 +9,13 @@ You compete with a computer to eat apples. Whoever eats 10 apples first, wins.
 5. Apple.py: it creates the apple class and keeps track of the player's score.
 6. Opponent.py: creates the opponent class and keeps track of the opponent's score by importing apple.py.
 7. Pause_Menu.py: creates the pause and menu screen.
-8. Reset.py: it contains the reset function which reset the game and the gameEND function which determines the winner.
+8. Reset.py: it contains the reset function, which resets the game, and the gameEND function which determines the winner. The scores are then save to a text file.
 9. Rotating_Image.py: contains a simple function to rotate an image from the center (instead of the top left coordinate).
 10. ScreenUpdate.py: contains the screenUpdate function which imports all variable from Importer.py to blit the image on the gameDisplay. This allows for smooth movement of images.
 
+For further explaination, read the comments in the code
+
 // Info //
-Use arrow keys to navigate. The player's speed is set to 5 whereas the computer's speed is 2.5. However, the computer can move diagonally fast.
-The player can go through walls and come through the other side whereas the computer can not.
+Use arrow keys to navigate. The player's speed is set to 5 whereas the computer's speed is 2.5. The player can go through walls and come through the other side whereas the computer can not.
 
 HAVE FUN!!
