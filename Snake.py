@@ -7,7 +7,7 @@ class snake:
     def __init__(self):
         self.angle = 0
         self.faceDIR = (1, 0, 0, 0)     #faceUP, faceRIGHT, faceDOWN, faceLEFT. Clockwise rotation
-        self.stepINCR = 5       # the amount of pixels the player moves.
+        self.stepINCR = 5       # the speed the player moves.(twice that of the opponent).
         self.xpos = sb.xres/2   # starts from the middle.
         self.ypos = sb.yres/2   
         self.points = 0     # the points of the player.
