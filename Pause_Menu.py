@@ -4,6 +4,10 @@ import Basics as sb
 # from Apple import apple
 from message import message_display
 
+### Variables used in other files ###
+# gameRun is used in Launch.py, Reset.py, Snake.py.
+# isGamePaused is used in Snake.py, Opponent.py.
+# showMenu is used in Reset.py.
 
 class PauseMenu:
     def __init__(self):
