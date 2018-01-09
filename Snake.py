@@ -12,8 +12,6 @@ class snake:
         self.ypos = sb.yres/2   
         self.points = 0     # the points of the player.
         self.pointsINCR = 1 #   # the increment in points after eating 1 apple.
-        self.isGameEnd = False      # to check if the game has ended or not.
-        self.isScore = False        # to check if the max score has been reached or not.
 
     def move(self):
         # To change the direction of the player.
