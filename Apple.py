@@ -2,6 +2,11 @@ import random
 import Basics as sb
 from Snake import snakePlayer
 
+### Variables used in other files ###
+# isAppleDrawn is used in Opponent.py.
+# appleXpos is used in Opponent.py and ScreenUpdate.py.
+# appleYpos is used in Opponent.py and ScreenUpdate.py.
+
 class apple:
     def __init__(self):
         self.isAppleDrawn = False   # check to see if the apple is drawn or not.
