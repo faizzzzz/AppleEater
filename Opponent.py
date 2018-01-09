@@ -3,7 +3,10 @@ from Apple import apple
 from Pause_Menu import Menu
 
 ### Variables used in other files ###
-
+# oppoXpos is used in Reset.py and ScreenUpdate.py.
+# oppoYpos is used in Reset.py and ScreenUpdate.py.
+# oppoScore is uesd in Reset.py.
+# oppoIMG is used in ScreenUpdate.py
 
 class opponent:
     def __init__(self):
