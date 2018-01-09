@@ -3,6 +3,14 @@ from Pause_Menu import Menu
 from Rotating_Image import rot_center as rot_img
 import Basics as sb
 
+### Variables used in other files ###
+# xpos is used in Apple.py, Reset.py, and ScreenUpdate.py.
+# ypos is used in Apple.py, Reset.py, and ScreenUpdate.py.
+# points is used in Apple.py, Reset.py, and ScreenUpdate.py.
+# pointsINCR is used in Apple.py.
+# angle is used in Reset.py.
+# faceDIR is used in Reset.py
+
 class snake:
     def __init__(self):
         self.angle = 0
