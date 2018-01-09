@@ -6,6 +6,7 @@ import Basics as sb
 from message import message_display
 
 def reset():
+    # resets everthing to 0.
     snakePlayer.points = 0
     opponent_1.oppoScore = 0
     snakePlayer.angle = 0
@@ -23,7 +24,8 @@ def gameEnd():
         if opponent_1.oppoScore == winning_points:
             message_display("You Lost.", sb.xres/2, sb.yres/2, 50, sb.gameDisplay)
         pygame.display.update()
-        time.sleep(2)
-        reset()
-        Menu.gameRun = False
-        Menu.showMenu = True
+        time.sleep(2)       # shows the above messages for 2 seconds.
+        reset()     # resets everything
+        Menu.gameRun = False        # the game no longer runs
+        Menu.showMenu = True        # displays the menu.
+        
