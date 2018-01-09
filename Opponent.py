@@ -2,6 +2,9 @@ import pygame
 from Apple import apple
 from Pause_Menu import Menu
 
+### Variables used in other files ###
+
+
 class opponent:
     def __init__(self):
         self.oppoXpos = 0       # x position of the opponent.
