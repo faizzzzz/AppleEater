@@ -47,7 +47,7 @@ class opponent:
             self.oppoSpeed = 0
 
 
-        if self.oppoXpos <= apple.appleXpos <= self.oppoXpos + self.self.oppoWidth and self.oppoYpos <= apple.appleYpos <= self.oppoYpos + self.self.oppoHeight:
+        if self.oppoXpos <= apple.appleXpos <= self.oppoXpos + self.oppoWidth and self.oppoYpos <= apple.appleYpos <= self.oppoYpos + self.oppoHeight:
             # if the x pos and y pos of the apple lie between the x position and and width and the y position and height of the 
             # opponent respectively, it means that the opponent has eaten the apple/scored.
             self.oppoScore += 1
